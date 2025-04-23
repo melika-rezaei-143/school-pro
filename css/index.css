@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  direction: rtl;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+/* HEADER */
+.enterdus {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 60px;
+}
+.enterdus img {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enterdus p {
+  color: white;
+}
+/* HERO */
+.hero {
+  height: 300px;
+  background: url(../images/salor.jpg) no-repeat center center;
+  background-size: cover;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navigation ul {
+  padding: 33px 0;
+}
+.navigation li {
+  font-size: 20px;
+  width: 300px;
+  border-bottom: 1px solid palevioletred;
+  padding: 18px 20px;
+  background-color: lightgray;
+  color: darkblue;
+  transition: 0.7s;
+  list-style: none;
+}
+.navigation li:hover {
+  color: blueviolet;
+}
+/* FIRST-PART-MAIN */
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.pic {
+  position: relative;
+}
+.pic img {
+  width: 350px;
+  transition: 0.7s;
+}
+.pic:hover img {
+  transform: scale(0.9);
+  filter: brightness(0.4);
+  border: 4px solid white;
+}
+.pic:hover p:nth-child(2) {
+  opacity: 1;
+}
+.pic2 a {
+  color: black;
+}
+.pic p {
+  font-size: 21px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.3s;
+}
+.pic p:nth-child(2) {
+  transform: translate(-50%, 150%);
+  color: darkorange;
+  opacity: 0;
+}
+.pic div {
+  background-color: burlywood;
+}
+.picture2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  margin-bottom: 50px;
+}
+.pic2 img {
+  width: 200px;
+  border-radius: 50%;
+}
+.pic2 p {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+}
+.pic2:hover p {
+  color: gray;
+}
+/* FOOTER */
+footer {
+  background-color: aqua;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+}
+.icon {
+  font-size: 20px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.footer p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+/* ABOUT-US */
+.about-us {
+  padding: 100px;
+  line-height: 25px;
+}
+.about-us h2:first-child {
+  width: 400px;
+  font-size: 100px;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 3px solid pink;
+  margin: 20px auto;
+}
+.about-us p {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.about-us li {
+  font-size: 20px;
+  margin-right: 50px;
+}
+.about-us h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  width: 100%;
+}
+/* MASOLIN */
+.moaven-koli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+.masolin h2 {
+  width: 600px;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid pink;
+  margin: 20px auto;
+}
+.moaven {
+  font-size: 20px;
+}
+.moaven p:first-child {
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.masolin {
+  margin-bottom: 50px;
+}
+/*  */
+.back {
+  background: url(../images/Moarefi-Masoolin-Pic.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back2 {
+  background: url(../images/website_khob_01\ copy.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back3 {
+  background: url(../images/sallor.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  margin: 50px auto;
+  max-width: 1350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payany img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+}
+.payany {
+  text-align: center;
+  line-height: 25px;
+}
+.sher {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+@media (max-width: 1077px) {
+  .picture {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 853px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 613px) {
+  .moaven-koli {
+    flex-wrap: wrap;
+  }
+}
