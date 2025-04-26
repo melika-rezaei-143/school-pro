@@ -89,6 +89,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 60px;
+  background-color: #d9e2ec;
 }
 .icon {
   font-size: 20px;
