@@ -47,7 +47,7 @@ a {
   width: 300px;
   border-bottom: 1px solid palevioletred;
   padding: 18px 20px;
-  background-color: lightgray;
+  background-color: #d9e2ec;
   color: darkblue;
   transition: 0.7s;
   list-style: none;
@@ -78,7 +78,7 @@ main {
 
 /* FOOTER */
 footer {
-  background-color: aqua;
+  background-color: #d9e2ec;
 }
 .footer {
   display: flex;
@@ -149,4 +149,11 @@ footer {
   .bad {
     width: 100%;
   }
+}
+body {
+  background-color: #f0f4f8;
+  font-family: "Vazir", sans-serif;
+}
+body p {
+  line-height: 1.8;
 }

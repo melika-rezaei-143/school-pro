@@ -133,3 +133,10 @@ footer {
     width: 200px;
   }
 }
+body {
+  background-color: #f0f4f8;
+  font-family: "Vazir", sans-serif;
+}
+body p {
+  line-height: 1.8;
+}

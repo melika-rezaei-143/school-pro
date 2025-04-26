@@ -62,7 +62,7 @@ a {
 }
 .gallery p {
   margin: 0 auto;
-  background-color: lightblue;
+  background-color: #d9e2ec;
   border-bottom: 2px solid palevioletred;
   font-size: 40px;
   padding: 15px;
@@ -82,7 +82,7 @@ main img {
 
 /* FOOTER */
 footer {
-  background-color: aqua;
+  background-color: #d9e2ec;
 }
 .footer {
   display: flex;
@@ -147,4 +147,11 @@ footer {
   .navigation li {
     width: 200px;
   }
+}
+body {
+  background-color: #f0f4f8;
+  font-family: "Vazir", sans-serif;
+}
+body p {
+  line-height: 1.8;
 }
