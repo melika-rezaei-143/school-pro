@@ -107,6 +107,7 @@ a {
   align-items: center;
   gap: 37px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 .pic2 img {
   width: 200px;
