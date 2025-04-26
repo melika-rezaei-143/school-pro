@@ -85,15 +85,13 @@ main {
   padding: 10px 100px;
 }
 main img {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 /* FOOTER */
-footer {
-  background-color: aqua;
-  height: 150px;
-}
 .footer {
+  background-color: aqua;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -109,4 +107,40 @@ footer {
 .footer p {
   font-size: 20px;
   margin-top: 20px;
+}
+@media (max-width: 853px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic p:nth-child(2) {
+    opacity: 1;
+  }
+  main {
+    padding: 0;
+  }
+}
+@media (max-width: 458px) {
+  .pictures {
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+  .gallery p {
+    font-size: 20px;
+    padding: 4px;
+  }
+}
+@media (max-width: 295px) {
+  .navigation li {
+    width: 200px;
+  }
 }

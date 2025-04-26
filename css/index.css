@@ -262,9 +262,19 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .pic p:nth-child(2) {
+    opacity: 1;
+  }
 }
 @media (max-width: 613px) {
   .moaven-koli {
     flex-wrap: wrap;
+  }
+  .about-us {
+    padding: 2px;
+    margin: 0;
+  }
+  .sher {
+    font-size: 20px;
   }
 }
